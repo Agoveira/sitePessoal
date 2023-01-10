@@ -1,0 +1,160 @@
+body {
+    
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content:center;
+    background-color: #dddddd;
+    border: #09f 2px solid;
+    border-radius: 15px;
+    background: url("bg.jpg");
+}
+
+.container div {
+    display: flex;
+    justify-content:center;
+    Width: 1000px;
+    background-color: #09f
+
+}
+
+.container1 {
+    display: flex;
+    justify-content:center;
+    background-color: #dddddd;
+    
+
+}
+
+.secao1 {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    Width: 980px;
+    height: 60px;
+    background-color: #ffffff;
+    border: #09f 2px solid;
+    border-radius: 15px;
+    padding: 0px 10px;
+    margin: 5px 5px 5px;
+}
+
+header {
+    background-color: #555;
+    min-height: 100
+    
+    
+}
+
+.container2 {
+    display: flex;
+    min-height: 450px;
+}
+
+aside {
+    width: 260px;
+    background-color: #ffffff;
+    border: #09f 2px solid;
+    border-radius: 15px;
+    margin: 5px 5px 5px;
+    
+    
+}
+
+main {
+    flex: 1;
+    background-color: #d3d3d3; 
+    border: #09f 2px solid;
+    border-radius: 15px;  
+    padding: 5px 10px;
+}
+
+footer {
+    background-color: #555;
+    min-height: 50px;
+    border: #09f 2px solid;
+    border-radius: 15px;
+}
+
+
+
+nav li {
+	display: inline;
+    
+	
+}nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #09f;
+	text-decoration: underline;
+    border: #09f 2px solid;
+    border-radius: 15px;
+    padding: 5px 5px;
+    
+}
+
+.atividade li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: #09f 2px solid;
+	border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.atividade li:hover {
+	color: #09f;
+    border: #000000 3px solid;
+}
+
+.atividade li:hover h2 {
+	font-size: 25px;
+    color: #09f;
+	text-decoration: underline;
+}
+
+.atividade li:hover p {
+	font-size: 15px;
+    color: #09f;
+	text-decoration: underline;
+}
+.atividade a {
+	
+	color: #000000;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+atividade a:hover {
+    color: #09f;
+    text-decoration: underline;
+    border: #09f 2px solid;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px 0;
+    margin: 5px 5px 5px;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 0 0 0;
+
+}
